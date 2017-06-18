@@ -26,10 +26,38 @@ header{
 header nav{
   padding-right: 40px;
 }
+
 nav span{
   display: inline-block;
   padding: 20px 10px;
 }
+
 a{
   color: black;
+}
+
+div{
+  border: 1px solid black;
+}
+
+div.maincontainer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 116px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
 }
