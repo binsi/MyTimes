@@ -1,0 +1,12 @@
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+header h1{
+  color: MediumAquamarine;
+}
+nav{
+  display: inline-block;
+}
