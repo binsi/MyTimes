@@ -36,16 +36,51 @@ a{
   color: black;
 }
 
+/*
 div{
   border: 1px solid black;
 }
+*/
 
 div.maincontainer{
   display: flex;
   justify-content: space-between;
   padding-top: 116px;
 }
-
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.stories{
+  display: flex;
+  flex-direction: row;
+}
+.image-content{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+}
+.lead-story .image-content{
+  background-image: url(../images/img-story-main.png);
+  height: 300px;
+  font-size: 40px;
+  text-align: left;
+}
+.story1.image-content{
+  background-image: url(../images/img-story-2.png);
+}
+.story2.image-content{
+  background-image: url(../images/img-story-3.png);
+}
+.story3.image-content{
+  background-image: url(../images/img-story-1.png);
+}
 .column{
   display: flex;
   flex-direction: column;
